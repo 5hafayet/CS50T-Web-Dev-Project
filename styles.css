@@ -1,3 +1,7 @@
+.body {
+  text-align: center;
+}
+
 header {
   font-size: large;
   text-align: center;
@@ -25,7 +29,13 @@ h3 {
   width: 70%;
 }
 
-table,
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
 th,
 td {
   border: 1px solid;
